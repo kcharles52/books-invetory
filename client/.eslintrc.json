@@ -19,7 +19,8 @@
     "sourceType": "module"
   },
   "plugins": [
-    "react"
+    "react",
+    "prettier"
   ],
   "rules": {
     "import-name": 0,
@@ -66,7 +67,6 @@
       1,
       "static-before-instance"
     ],
-    "no-arg": 1,
     "no-bitwise": 2,
     "no-console": [
       2
@@ -142,10 +142,10 @@
       "always"
     ],
     "prefer-object-spread": 1,
-    "prefer-const":["error", {
+    "prefer-const": ["error", {
       "destructuring": "any",
       "ignoreReadBeforeAssign": false
-  }],
+    }],
     "import-spacing": 1,
     "no-irregular-whitespace": 1
   }
